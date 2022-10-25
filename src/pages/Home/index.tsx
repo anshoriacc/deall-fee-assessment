@@ -19,6 +19,12 @@ const Home = () => {
 
   useEffect(() => {
     fetchCategories();
+    fetch(
+      'https://asia-southeast2-sejutacita-app.cloudfunctions.net/fee-assessment-categories',
+      { mode: 'no-cors' }
+    )
+      .then((res) => res.json())
+      .then((json) => console.log(json));
     return;
   }, []);
 
