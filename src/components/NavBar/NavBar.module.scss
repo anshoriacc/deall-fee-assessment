@@ -1,0 +1,59 @@
+@import '../../assets/styles/index.scss';
+
+header {
+  z-index: 2;
+  position: relative;
+  border-bottom: 1px solid #eee;
+  width: 100vw;
+
+  nav {
+    width: calc(100% - 2rem);
+    max-width: 960px;
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $primary;
+
+    a {
+      text-decoration: none;
+    }
+
+    .brand {
+      font-size: 2rem;
+      line-height: 1;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: $dark-blue;
+
+      img {
+        height: 3rem;
+      }
+    }
+
+    .bookmarks {
+      padding: 0.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.25rem;
+      height: fit-content;
+      font-weight: bold;
+      border-radius: 0.5rem;
+      border: none;
+      background-color: $yellow;
+      cursor: pointer;
+      color: $dark-blue;
+
+      img {
+        width: 1.5rem;
+        height: 1.5rem;
+        filter: invert(12%) sepia(40%) saturate(2373%) hue-rotate(222deg)
+          brightness(91%) contrast(103%);
+      }
+    }
+  }
+}
