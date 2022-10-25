@@ -14,7 +14,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: $primary;
 
     a {
       text-decoration: none;
@@ -27,7 +26,7 @@ header {
       display: flex;
       align-items: center;
       gap: 0.5rem;
-      color: $dark-blue;
+      color: $navy;
 
       img {
         height: 3rem;
@@ -46,7 +45,7 @@ header {
       border: none;
       background-color: $yellow;
       cursor: pointer;
-      color: $dark-blue;
+      color: $navy;
 
       img {
         width: 1.5rem;

@@ -1,0 +1,73 @@
+@import '../../assets/styles/index.scss';
+
+footer {
+  width: 100vw;
+  background-color: $yellow;
+
+  .wrapper {
+    width: calc(100% - 2rem);
+    max-width: 960px;
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    color: $primary;
+
+    & > * {
+      min-width: 17rem;
+    }
+
+    .brand {
+      a {
+        text-decoration: none;
+        font-size: 2rem;
+        line-height: 1;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: $navy;
+
+        img {
+          height: 3rem;
+        }
+      }
+
+      p {
+        margin: 0;
+        font-size: smaller;
+        color: #555;
+
+        a {
+          color: inherit;
+          font-size: inherit;
+          display: contents;
+        }
+      }
+    }
+
+    .categories {
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+
+      h4 {
+        font-size: 1.25rem;
+        margin: 0;
+        margin-bottom: 1rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: $primary;
+
+        &:hover {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,178 @@
+[
+  {
+    "id": 110000,
+    "title": "The Intelligent Investor",
+    "category_id": 12,
+    "authors": ["Benjamin Graham"],
+    "cover_url": "https://cdn.sejutacita.id/6138d21e3a09ee0013ee730f/Booku/c55ef13f-eb0e-40de-a04c-e46df5940682.png",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur vo",
+    "sections": [
+      {
+        "title": "Intro",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+      },
+      {
+        "title": "The story of Mr. Market",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum"
+      },
+      {
+        "title": "Are you a speculator?",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam eius sed od"
+      },
+      {
+        "title": "The basic principles",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\n       optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis\n       obcaecati tenetur "
+      },
+      {
+        "title": "Starting your career",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\n       optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis\n       obcaecati t"
+      },
+      {
+        "title": "Ending your career",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam eius sed odit fugiat i"
+      },
+      { "title": "Final notes", "content": "Lorem ipsum dolor s" }
+    ],
+    "audio_length": 840
+  },
+  {
+    "id": 110001,
+    "title": "Eat to Live",
+    "category_id": 12,
+    "authors": ["Joel Fuhrman"],
+    "cover_url": "https://cdn.sejutacita.id/60594de91882d200135bd833/Booku/bec21735-9392-4694-9805-1ba929f03f1b.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Max",
+    "sections": [
+      {
+        "title": "Eat high-nutritious food",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum"
+      },
+      {
+        "title": "The societal myths",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\n       optio, eaque rerum! Provident similique accusantium nemo aut"
+      },
+      {
+        "title": "The daily menu",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam"
+      },
+      {
+        "title": "The benefetial impacts",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\n      "
+      },
+      {
+        "title": "The implementation",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\n       optio, eaque rerum! Provident similique accusantium "
+      },
+      { "title": "Final notes", "content": "Lorem ipsum dolor sit " }
+    ],
+    "audio_length": 3972
+  },
+  {
+    "id": 110002,
+    "title": "Ikigai",
+    "category_id": 12,
+    "authors": ["Héctor Garcia", "Francesc Miralles"],
+    "cover_url": "https://cdn.sejutacita.id/6138d21e3a09ee0013ee730f/Booku/f64e0881-ec81-4f45-bdb6-3b9a51af788d.png",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga ",
+    "sections": [
+      {
+        "title": "Intro",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+      },
+      {
+        "title": "Defining ikigai and its rules",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\n       optio, eaque rerum! Provident sim"
+      },
+      {
+        "title": "From logotherapy to ikigai",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\n       optio, eaque rerum! Provident similique accusantium nemo aut"
+      },
+      {
+        "title": "From flow to ikigai",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam"
+      },
+      { "title": "Final notes", "content": "Lorem ipsum dolor sit " }
+    ],
+    "audio_length": 1439
+  },
+  {
+    "id": 110003,
+    "title": "The Little Book of Hygge",
+    "category_id": 12,
+    "authors": ["Meik Wiking"],
+    "cover_url": "https://cdn.sejutacita.id/6138d21e3a09ee0013ee730f/Booku/703096ac-3749-41b0-8637-e37d9e29179e.png",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commo",
+    "sections": [
+      {
+        "title": "Intro",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molesti"
+      },
+      {
+        "title": "Defining Hygge",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum"
+      },
+      {
+        "title": "The right lighting",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\n       optio, eaque rerum! Provident similique accusantium nemo aut"
+      },
+      {
+        "title": "Food and drink as fundamental elements",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam"
+      },
+      {
+        "title": "When you are around",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\n      "
+      },
+      {
+        "title": "Riding a bike",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\n       optio, eaque rerum! Provident similique accusantium "
+      },
+      {
+        "title": "Hygge is a concept that can be applied",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\n       optio, eaque rerum! Provident similique accusantium "
+      },
+      { "title": "Final notes", "content": "Lorem ipsum dolor sit " }
+    ],
+    "audio_length": 7860
+  },
+  {
+    "id": 110004,
+    "title": "The Mastery of Love",
+    "category_id": 12,
+    "authors": ["Don Miguel Ruiz"],
+    "cover_url": "https://cdn.sejutacita.id/6138d21e3a09ee0013ee730f/Booku/2480465a-cc48-437f-a243-ead4722b27b8.jpg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n      ",
+    "sections": [
+      {
+        "title": "Intro",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molesti"
+      },
+      {
+        "title": "The accumulation",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum"
+      },
+      {
+        "title": "You need to wake up",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\n       optio, eaque rerum! Provident similique accusantium nemo aut"
+      },
+      {
+        "title": "Domestication",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam"
+      },
+      {
+        "title": "Shifting from fear to love",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\n      "
+      },
+      {
+        "title": "Finding the right person",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\n       optio, eaque rerum! Provident similique accusantium "
+      },
+      {
+        "title": "Three elements for healing",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\n       molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum\n       numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium\n       optio, eaque rerum! Provident similique accusantium "
+      },
+      { "title": "Final notes", "content": "Lorem ipsum dolor sit " }
+    ],
+    "audio_length": 481
+  }
+]

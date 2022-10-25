@@ -1,0 +1,36 @@
+@import '../../assets/styles/index.scss';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h2 {
+    margin: 0;
+    color: $navy;
+  }
+
+  a {
+    text-decoration: none;
+    color: $primary;
+    font-weight: bold;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  flex-wrap: wrap;
+}

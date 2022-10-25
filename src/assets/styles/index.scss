@@ -1,4 +1,4 @@
-$dark-blue: #1c1a4e;
+$navy: #1c1a4e;
 $primary: #2b46a6;
 $yellow: #ffc500;
 $yellow-shade: #ffd600;
@@ -14,7 +14,16 @@ body {
   overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #cccccc33;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: #cccccc33;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $primary;
 }

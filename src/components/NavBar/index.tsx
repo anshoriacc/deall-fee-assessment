@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 import styles from './NavBar.module.scss';
@@ -19,7 +19,6 @@ const NavBar = () => {
           />
           <span>Books</span>
         </NavLink>
-        <div>Kategori</div>
         <NavLink to="/">
           <button
             className={styles.bookmarks}
