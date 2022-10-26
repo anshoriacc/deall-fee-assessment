@@ -6,10 +6,6 @@ const Pagination = (props) => {
   const { search } = props;
   const location = useLocation();
 
-  console.log(props);
-
-  //   console.log(location);
-
   const numbers = Math.ceil(count / limit);
 
   return (

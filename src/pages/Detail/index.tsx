@@ -18,22 +18,17 @@ import bookmarkContext from '../../contexts/bookmarks';
 const Detail = () => {
   const { state } = useLocation();
   const navigate = useNavigate();
-  const {
-    id,
-    title,
-    cover_url,
-    authors,
-    category_id,
-    description,
-    sections,
-    audio_length,
-  } = state;
   const [bookmarked, setBookmark] = useState(false);
   const [bookmarkedBooks, setBookmarkedBooks] = useContext(bookmarkContext);
 
-  const categoryText = categories.find(
-    (category) => category.id === parseInt(category_id)
-  ).name;
+  const id = state && state.id;
+  const title = state && state.title;
+  const cover_url = state && state.cover_url;
+  const authors = state && state.authors;
+  const category_id = state && state.category_id;
+  const description = state && state.description;
+  const sections = state && state.sections;
+  const audio_length = state && state.audio_length;
 
   useEffect(() => {
     if (!state) {
@@ -54,8 +49,12 @@ const Detail = () => {
       setBookmarkedBooks([...JSON.parse(localStorage.getItem('bookmarks'))]);
     }
 
-    return
-  }, [bookmarked]);
+    return;
+  }, []);
+
+  const categoryText =
+    category_id &&
+    categories.find((category) => category.id === parseInt(category_id)).name;
 
   const bookmarkHandler = () => {
     if (!bookmarked) {
@@ -110,12 +109,13 @@ const Detail = () => {
           <h5>Description</h5>
           <p>{description}</p>
           <h5>Section</h5>
-          {sections.map((section, index) => (
-            <div key={index}>
-              <h6>{section.title}</h6>
-              <p>{section.content}</p>
-            </div>
-          ))}
+          {sections &&
+            sections.map((section, index) => (
+              <div key={index}>
+                <h6>{section.title}</h6>
+                <p>{section.content}</p>
+              </div>
+            ))}
         </div>
       </div>
     </Layout>
