@@ -46,10 +46,11 @@ header {
       background-color: $yellow;
       cursor: pointer;
       color: $navy;
+      font-size: 1rem;
 
       img {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 2rem;
+        height: 2rem;
         filter: invert(12%) sepia(40%) saturate(2373%) hue-rotate(222deg)
           brightness(91%) contrast(103%);
       }

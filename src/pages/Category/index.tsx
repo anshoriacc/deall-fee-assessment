@@ -19,7 +19,7 @@ const Category = () => {
   const { id } = useParams();
   const query = useQuery();
   const [meta, setMeta] = useState({
-    page: parseInt(query.get('page')) ? parseInt(query.get('page')) : 1,
+    page: 1,
     offset: 0,
     limit: 20,
     count: 0,
@@ -30,15 +30,15 @@ const Category = () => {
     setBooks(require(`../../data/${id}.json`).slice(meta.offset, meta.limit));
     setMeta({
       ...meta,
-      page: parseInt(query.get('page')) ? parseInt(query.get('page')) : 1,
-      offset: (meta.page - 1) * 20,
+      page: query.get('page') ? parseInt(query.get('page')) : 1,
+      offset: (query.get('page') ? parseInt(query.get('page')) - 1 : 0) * 20,
       count: require(`../../data/${id}.json`).length,
     });
 
     console.log('Meta', meta);
     console.log('page', parseInt(query.get('page')));
     console.log('books', books);
-  }, [parseInt(query.get('page')), id]);
+  }, [query.get('page'), id]);
 
   const categoryText = categories.find(
     (category) => category.id === parseInt(id)
@@ -50,7 +50,12 @@ const Category = () => {
       <div className={styles.wrapper}>
         <div className={styles.top}>
           <h2>{categoryText}</h2>
-          <p>Showing</p>
+          <p>
+            Showing{' '}
+            <span>{`${meta.offset + 1} – ${meta.offset + meta.limit} `}</span>{' '}
+            from
+            <span>{` ${meta.count} `}</span> books.
+          </p>
         </div>
         <div className={styles.bottom}>
           {books
