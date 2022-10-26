@@ -17,7 +17,6 @@
   &:focus {
     box-shadow: 0px 0px 8px #999;
     outline: none;
-    // outline: 2px solid #ccc;
   }
 }
 
@@ -46,4 +45,5 @@
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
