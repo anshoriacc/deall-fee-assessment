@@ -14,7 +14,7 @@ const Footer = () => {
         <div className={styles.brand}>
           <Link to="/">
             <img src={book} alt="logo" />
-            <span>Books</span>
+            <span>BluBooks</span>
           </Link>
           <p>© 2022 Achmad Anshori.</p>
           <p>

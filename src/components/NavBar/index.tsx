@@ -15,7 +15,7 @@ const NavBar = () => {
       <nav>
         <NavLink to="/" className={styles.brand}>
           <img src={book} alt="logo" />
-          <span>Books</span>
+          <span>BluBooks</span>
         </NavLink>
         <NavLink to="/">
           <button

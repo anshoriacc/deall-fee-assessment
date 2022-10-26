@@ -7,7 +7,7 @@ const Title = (props) => {
   return (
     <Helmet>
       <title>
-        {title ? `Books | ${title}` : `Books – FEE Assessment Deall`}
+        {title ? `BluBooks | ${title}` : `BluBooks – Deall's FEE Assessment`}
       </title>
     </Helmet>
   );
