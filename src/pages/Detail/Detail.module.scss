@@ -1,0 +1,88 @@
+@import '../../assets/styles/index.scss';
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.navigation {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  img {
+    height: 1rem;
+    filter: invert(47%) sepia(0%) saturate(1780%) hue-rotate(149deg)
+      brightness(99%) contrast(82%);
+  }
+
+  .home {
+    height: 1.5rem;
+  }
+
+  a {
+    //   text-decoration: none;
+    color: #777;
+    display: flex;
+  }
+
+  h4 {
+    display: contents;
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+
+  .bookmark {
+    background-color: $yellow;
+    padding: 0.5rem;
+    height: fit-content;
+    border-radius: 1rem;
+    display: flex;
+
+    img {
+      height: 2rem;
+      filter: invert(12%) sepia(40%) saturate(2373%) hue-rotate(222deg)
+        brightness(91%) contrast(103%);
+    }
+  }
+
+  .image-wrapper {
+    display: flex;
+    justify-content: center;
+    width: calc(100% - 4rem);
+    max-width: 400px;
+    max-height: 600px;
+
+    img {
+      width: 100%;
+      object-fit: contain;
+      border-radius: 1rem;
+      overflow: hidden;
+    }
+  }
+
+  .right-container {
+    width: 100%;
+    max-width: 400px;
+
+    span {
+      color: #777;
+      display: contents;
+      font-size: 1rem;
+    }
+
+    h6 {
+      margin: 0.25rem 0;
+    }
+
+    p {
+      margin-top: 0;
+    }
+  }
+}

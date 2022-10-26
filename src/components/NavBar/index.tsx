@@ -17,7 +17,7 @@ const NavBar = () => {
           <img src={book} alt="logo" />
           <span>BluBooks</span>
         </NavLink>
-        <NavLink to="/">
+        <NavLink to="/bookmark">
           <button
             className={styles.bookmarks}
             onMouseEnter={() => {
