@@ -18,27 +18,34 @@ const useQuery = () => {
 const Category = () => {
   const { id } = useParams();
   const query = useQuery();
+  const { search } = useLocation();
   const [meta, setMeta] = useState({
-    page: 1,
-    offset: 0,
+    page: query.get('page') ? parseInt(query.get('page')) : 1,
+    offset: (query.get('page') ? parseInt(query.get('page')) - 1 : 0) * 20,
     limit: 20,
-    count: 0,
+    count: require(`../../data/${id}.json`).length,
   });
-  const [books, setBooks] = useState([]);
+  const [books, setBooks] = useState(
+    require(`../../data/${id}.json`).slice(
+      meta.offset,
+      meta.offset + meta.limit
+    )
+  );
 
   useEffect(() => {
-    setBooks(require(`../../data/${id}.json`).slice(meta.offset, meta.limit));
     setMeta({
       ...meta,
       page: query.get('page') ? parseInt(query.get('page')) : 1,
       offset: (query.get('page') ? parseInt(query.get('page')) - 1 : 0) * 20,
       count: require(`../../data/${id}.json`).length,
     });
-
-    console.log('Meta', meta);
-    console.log('page', parseInt(query.get('page')));
-    console.log('books', books);
-  }, [query.get('page'), id]);
+    setBooks(
+      require(`../../data/${id}.json`).slice(
+        meta.offset,
+        meta.offset + meta.limit
+      )
+    );
+  }, [id, search]);
 
   const categoryText = categories.find(
     (category) => category.id === parseInt(id)
