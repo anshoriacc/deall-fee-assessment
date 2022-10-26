@@ -23,14 +23,13 @@
     margin: 0;
 
     span {
-        font-weight: bold;
+      font-weight: bold;
     }
   }
 }
 
 .bottom {
   display: flex;
-  justify-content: space-around;
-  gap: 1rem;
+  gap: 2rem;
   flex-wrap: wrap;
 }

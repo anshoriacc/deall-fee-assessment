@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 import styles from './Footer.module.scss';
 
+import book from '../../assets/icons/book.svg';
+
 import categories from '../../data/categories.json';
 
 const Footer = () => {
@@ -11,10 +13,7 @@ const Footer = () => {
       <div className={styles.wrapper}>
         <div className={styles.brand}>
           <Link to="/">
-            <img
-              src="https://sejutacita.id/static/media/logo-bg-new.14982478.png"
-              alt="sejutacita.id logo"
-            />
+            <img src={book} alt="logo" />
             <span>Books</span>
           </Link>
           <p>© 2022 Achmad Anshori.</p>

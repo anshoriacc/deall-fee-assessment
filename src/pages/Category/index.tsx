@@ -59,7 +59,11 @@ const Category = () => {
           <h2>{categoryText}</h2>
           <p>
             Showing{' '}
-            <span>{`${meta.offset + 1} – ${meta.offset + meta.limit} `}</span>{' '}
+            <span>{`${meta.offset + 1} – ${
+              meta.page === Math.ceil(meta.count / meta.limit)
+                ? meta.offset + (meta.count % meta.limit)
+                : meta.offset + meta.limit
+            } `}</span>{' '}
             from
             <span>{` ${meta.count} `}</span> books.
           </p>

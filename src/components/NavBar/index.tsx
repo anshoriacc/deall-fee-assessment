@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import styles from './NavBar.module.scss';
 
+import book from '../../assets/icons/book.svg';
 import bookmarks from '../../assets/icons/bookmarks.svg';
 import bookmarksFill from '../../assets/icons/bookmarks-fill.svg';
 
@@ -13,10 +14,7 @@ const NavBar = () => {
     <header>
       <nav>
         <NavLink to="/" className={styles.brand}>
-          <img
-            src="https://sejutacita.id/static/media/logo-bg-new.14982478.png"
-            alt="sejutacita.id logo"
-          />
+          <img src={book} alt="logo" />
           <span>Books</span>
         </NavLink>
         <NavLink to="/">

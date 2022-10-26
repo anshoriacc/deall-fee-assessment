@@ -2,7 +2,7 @@
 
 footer {
   width: 100vw;
-  background-color: $yellow;
+  background-color: $navy;
 
   .wrapper {
     width: calc(100% - 2rem);
@@ -29,17 +29,19 @@ footer {
         display: flex;
         align-items: center;
         gap: 0.5rem;
-        color: $navy;
+        color: white;
 
         img {
           height: 3rem;
+          filter: invert(99%) sepia(66%) saturate(0%) hue-rotate(255deg)
+            brightness(105%) contrast(101%);
         }
       }
 
       p {
         margin: 0;
         font-size: smaller;
-        color: #555;
+        color: #ccc;
 
         a {
           color: inherit;
@@ -53,17 +55,18 @@ footer {
       display: flex;
       flex-direction: column;
       width: fit-content;
+      gap: 0.25rem;
 
       h4 {
         font-size: 1.25rem;
         margin: 0;
         margin-bottom: 0.5rem;
-        color: $navy;
+        color: white;
       }
 
       a {
         text-decoration: none;
-        color: $primary;
+        color: white;
 
         &:hover {
           font-weight: bold;

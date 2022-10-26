@@ -30,6 +30,8 @@ header {
 
       img {
         height: 3rem;
+        filter: invert(12%) sepia(40%) saturate(2373%) hue-rotate(222deg)
+          brightness(91%) contrast(103%);
       }
     }
 
