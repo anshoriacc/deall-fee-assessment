@@ -52,6 +52,11 @@
   flex-direction: column;
   gap: 0.25rem;
 
+  @media (max-width: 576px) {
+    width: 9rem;
+    height: 16rem;
+  }
+
   .image-wrapper {
     width: 100%;
     aspect-ratio: 1;
